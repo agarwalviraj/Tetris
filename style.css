@@ -1,0 +1,88 @@
+:root {
+  --background-color: #303030;
+  --div-color: #28afb0;
+  --button-color: #ee964b;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+button {
+  background-color: var(--button-color);
+  border: none;
+  height: fit-content;
+  padding: 0.5em;
+  margin: 0.25rem;
+  width: fit-content;
+  border-radius: 0.25rem;
+}
+
+div {
+  background-color: var(--div-color);
+  height: 20px;
+  width: 20px;
+}
+.score {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: fit-content;
+  padding: 0;
+  justify-content: start;
+  background-color: antiquewhite;
+}
+
+.display {
+  margin: 0;
+}
+
+.game {
+  background-color: antiquewhite;
+  border-radius: 2em;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+  justify-content: space-between;
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.grid {
+  background-color: blue;
+  width: 200px;
+  height: 400px;
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.previous-grid {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.previous-shape {
+  margin: 3rem 0rem;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+}
+
+.block {
+  background-color: blueviolet;
+}
+
+.block2 {
+  background-color: pink;
+}
+
+.block3 {
+  background-color: black;
+}
